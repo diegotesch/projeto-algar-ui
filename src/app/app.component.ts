@@ -27,8 +27,16 @@ export class AppComponent {
       tipo: 'DESPESA',
       descricao: 'Compra',
       dataVencimento: '30/06/2019',
-      dataPagamento: null,
+      dataPagamento: '21/07/2019',
       valor: 50.78,
+      pessoa: 'Loja'
+    },
+    {
+      tipo: 'DESPESA',
+      descricao: 'Compra',
+      dataVencimento: '30/06/2019',
+      dataPagamento: null,
+      valor: 35.00,
       pessoa: 'Loja'
     },
     {
@@ -43,15 +51,7 @@ export class AppComponent {
       tipo: 'DESPESA',
       descricao: 'Compra',
       dataVencimento: '30/06/2019',
-      dataPagamento: null,
-      valor: 50.78,
-      pessoa: 'Loja'
-    },
-    {
-      tipo: 'DESPESA',
-      descricao: 'Compra',
-      dataVencimento: '30/06/2019',
-      dataPagamento: null,
+      dataPagamento: '21/07/2019',
       valor: 50.78,
       pessoa: 'Loja'
     },
