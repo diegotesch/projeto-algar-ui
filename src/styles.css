@@ -30,3 +30,12 @@ button{
   width: 120px;
   text-align: center;
 }
+
+.col-acoes{
+  width: 90px;
+  text-align: center;
+}
+
+.col-acoes a, .col-acoes button{
+  margin-left: 10px;
+}
