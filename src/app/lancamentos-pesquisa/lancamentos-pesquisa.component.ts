@@ -10,57 +10,57 @@ export class LancamentosPesquisaComponent {
     {
       tipo: 'DESPESA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
+      dataVencimento: new Date(2019, 5, 30),
       dataPagamento: null,
-      valor: 50.78,
+      valor: 12500.87,
       pessoa: 'Loja'
     },
     {
       tipo: 'RECEITA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
+      dataVencimento: new Date(2019, 8, 22),
       dataPagamento: null,
-      valor: 50.78,
+      valor: 187.55,
       pessoa: 'Loja'
     },
     {
       tipo: 'DESPESA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
-      dataPagamento: '21/07/2019',
-      valor: 50.78,
+      dataVencimento: new Date(2019, 0, 17),
+      dataPagamento: new Date(2019, 6, 21),
+      valor: 80000,
       pessoa: 'Loja'
     },
     {
       tipo: 'DESPESA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
+      dataVencimento: new Date(2018, 11, 13),
       dataPagamento: null,
-      valor: 35.00,
+      valor: 3870.29,
       pessoa: 'Loja'
     },
     {
       tipo: 'RECEITA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
+      dataVencimento: new Date(2018, 9, 31),
       dataPagamento: null,
-      valor: 50.78,
+      valor: 87.65,
       pessoa: 'Loja'
     },
     {
       tipo: 'DESPESA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
-      dataPagamento: '21/07/2019',
-      valor: 50.78,
+      dataVencimento: new Date(2019, 1, 10),
+      dataPagamento: new Date(2019, 1, 9),
+      valor: 12009837.87,
       pessoa: 'Loja'
     },
     {
       tipo: 'RECEITA',
       descricao: 'Compra',
-      dataVencimento: '30/06/2019',
+      dataVencimento: new Date(2019, 3, 15),
       dataPagamento: null,
-      valor: 50.78,
+      valor: 876.45,
       pessoa: 'Loja'
     },
   ];
